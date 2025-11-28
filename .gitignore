@@ -1,0 +1,39 @@
+# Logs
+logs/*.log
+
+# Database configuration (if you want to keep credentials private)
+# config/Sistema.php
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Composer
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+
+# User uploaded files (if any)
+uploads/*
+!uploads/.gitkeep
